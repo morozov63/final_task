@@ -8,3 +8,19 @@ https://drive.google.com/file/d/1Bnbd9Od7-94r-jjzApGgxj_TCdnkUp2n/view?usp=share
  В условии (if) указываем , что количество символов в каждом элементе массива
   должно быть меньше или равно 3
   Если условие соблюдается, выводим на печать/*
+
+            /Решение/
+
+  string[] days = { "Hello", "World", "2",
+      ";-)" };
+      
+      
+      for(int i = 0; i< days.Length; i++)
+      
+      {
+        if ( days[i].Length <=3)
+        {
+             Console.Write($"{days[i]}, "); 
+        }
+       
+      }
